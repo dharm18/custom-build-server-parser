@@ -6,6 +6,8 @@ To run this project.
 
 ![Alt text](https://github.com/dharm18/dharm18.github.io/blob/master/images/server-build-loge-parser-db.PNG?raw=true "HSQLDB instance running in file based server mode.")
 
-2. LogParser class has main method which takes filepath argument and process the file.
+2. Import project as gradle project and run build. 
 
-3. LogParserTest file contains unit test cases to support the logic
+3. LogParser class has main method which takes filepath argument and process the file.
+
+4. LogParserTest file contains unit test cases to support the logic

@@ -41,6 +41,11 @@ public class LogParser {
 		}
 	}
 	
+	/**
+	 * Takes the file path, process the log line by line into Java object through GSON library and flags the event.
+	 * @param serverLogfile
+	 * @return
+	 */
 	public List<LogEvent> processFile(String serverLogfile) {
 		Map<String, List<Log>> logs = new HashMap<>();
 		List<LogEvent> logEvents = new ArrayList<>();
